@@ -8,6 +8,7 @@ const ingredientRouter = require('./routes/ingredient.routes');
 const orderRouter = require('./routes/order.routes');
 const subscriptionRouter = require('./routes/subscription.routes');
 const transactionRouter = require('./routes/transaction.routes');
+const db = require("./config/db");
 
 app.use(cors());
 app.use(morgan('tiny'));
